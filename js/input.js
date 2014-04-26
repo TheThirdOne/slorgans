@@ -9,7 +9,7 @@ c.onmousewheel = function(e){
   
   scale *= temp;
   console.log(scale,arr);
-  redraw();
+  draw();
 }
 
 var mouse = {};
@@ -33,12 +33,12 @@ c.onmouseup = function(evt){
     }
     mouse.dx = 0;
     mouse.dy = 0;
-    redraw();
+    draw();
 };
 c.onmousemove = function(evt){
     if(mouse.down){
       mouse.dx = evt.x - mouse.x;
       mouse.dy = evt.y - mouse.y;
-      redraw();
+      draw();
     }
 };
