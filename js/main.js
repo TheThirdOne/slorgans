@@ -24,13 +24,3 @@ world[5]={img:imgs[5],x:0,y:0,size:[50,50]};
 world[6]={img:imgs[6],x:150,y:50,size:[100,100]};
 world[7]={img:imgs[7],x:0,y:0,size:[50,50]};
 world[8]={img:imgs[8],x:0,y:0,size:[50,50]};
-
-['img/sloth.png',
-'img/heart.png',
-'img/lungs.png',
-'img/stomach.png',
-'img/intestines.png',
-'img/muscle.png',
-'img/brain.png',
-'img/bone.png',
-'img/fur.png']
