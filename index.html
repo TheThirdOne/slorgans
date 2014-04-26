@@ -1,9 +1,47 @@
 <html>
   <head>
     <title>Slorgans</title>
+    <style>
+      .store{
+        width: 500px;
+        float: right;
+      }
+      .item{
+        background: url(img/storeTile.png);
+        width: 64px;
+        height: 64px;
+      }
+      ul {
+        width: 100%;
+        margin:0;padding:0; /* CSS Reset */
+        max-width: 1000px; /* restrict the width */
+        margin: auto; /* center it */
+      }
+      li {
+          /*width: 33.3333%;*/
+          padding:10px;
+          float:left; /* squish them together */
+          list-style-type: none; /* remove the dots */
+          display:inline-block; /* IMPORTANT */
+      }
+    </style>
   </head>
   <body>
     <canvas width="400" height="600">Sorry the game does not support your browser</canvas>
+    <div class="store">
+      <ul>
+        <li><div class="item"></div></li>
+        <li><div class="item"></div></li>
+        <li><div class="item"></div></li>
+        <li><div class="item"></div></li>
+        <li><div class="item"></div></li>
+        <li><div class="item"></div></li>
+        <li><div class="item"></div></li>
+        <li><div class="item"></div></li>
+        <li><div class="item"></div></li>
+        <li><div class="item"></div></li>
+      </ul>
+    </div>
     <script src="js/res.js"></script>
     <script src="js/main.js"></script>
     <script src="js/input.js"></script>
